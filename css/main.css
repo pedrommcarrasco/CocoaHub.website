@@ -69,7 +69,7 @@ a {
 
 .subheading {
   text-transform: uppercase;
-  color: #4D61FC;
+  color: #007AFF;
   font-size: 12px;
   font-weight: 700;
   line-height: 1.4; }
@@ -149,8 +149,8 @@ a {
 .feature__icon {
   vertical-align: middle;
   margin-right: 15px;
-  max-height: 40px;
-  max-width: 40px;
+  max-height: 25px;
+  max-width: 25px;
   width: 100%; }
 
 .header-02 {
