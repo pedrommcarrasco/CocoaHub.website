@@ -171,9 +171,9 @@ button:focus {
     position: relative;
     z-index: 1;
     min-height: 400px;
-    background-image: -moz-linear-gradient(0deg, #00b2ff 0, #007aff 100%);
-    background-image: -webkit-linear-gradient(0deg, #00b2ff 0, #007aff 100%);
-    background-image: -ms-linear-gradient(0deg, #00b2ff 0, #007aff 100%);
+    background-image: -moz-linear-gradient(0deg, #007aff 0, #00b2ff 100%);
+    background-image: -webkit-linear-gradient(0deg, #007aff 0, #00b2ff 100%);
+    background-image: -ms-linear-gradient(0deg, #007aff 0, #00b2ff 100%);
 }
 
 .banner_area .banner_inner {
