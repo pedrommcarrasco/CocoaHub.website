@@ -356,6 +356,12 @@ h6 {
     height: auto;
 }
 
+.video_container {
+    background: #f9faff;
+    padding-top: 65px;
+    padding-bottom: 65px
+}
+
 .download_app_area {
     background-image: -moz-linear-gradient(0deg, #00B2FF 0%, #007AFF 100%);
     background-image: -webkit-linear-gradient(0deg, #00B2FF 0%, #007AFF 100%);
@@ -464,7 +470,7 @@ h6 {
     position: relative;
     text-align: center;
     margin-top: 65px;
-    margin-bottom: 35px
+    margin-bottom: 65px;
 }
 
 .video_area a {
