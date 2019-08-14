@@ -240,7 +240,13 @@ h6 {
     line-height: 50px;
     border-radius: 5px;
     -webkit-box-shadow: 0 10px 30px 0 rgba(115, 73, 251, .3);
-    box-shadow: 0 10px 30px 0 rgba(115, 73, 251, .3)
+    box-shadow: 0 10px 30px 0 rgba(115, 73, 251, .3);
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 5px;
+    margin-right: 16px;
 }
 
 .main_btn:hover {
@@ -351,10 +357,42 @@ h6 {
     margin-bottom: 40px
 }
 
+
+.interior_inner .interior_text h4 {
+    color: #222;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    line-height: 45px;
+    font-size: 45px;
+    margin-bottom: 30px
+}
+
+.interior_inner .interior_text p {
+    margin-bottom: 40px
+}
+
 .interior_image {
     max-width: 100%;
     height: auto;
 }
+
+.others_inner {
+    text-align: center;
+}
+
+.others_inner .others_text p {
+    margin-bottom: 40px
+}
+
+.others_inner .others_text h4 {
+    color: #222;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    line-height: 45px;
+    font-size: 45px;
+    margin-bottom: 30px
+}
+
 
 .video_container {
     background: #f9faff;
