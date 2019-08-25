@@ -16,12 +16,19 @@ a:hover {
     margin: 0
 }
 
+html {
+    position:relative;
+    overflow-x:hidden
+}
+
 body {
     line-height: 24px;
     font-size: 18px;
     font-family: Roboto, sans-serif;
     font-weight: 300;
-    color: #777
+    color: #777;
+    position:relative;
+    overflow-x:hidden
 }
 
 h1,
