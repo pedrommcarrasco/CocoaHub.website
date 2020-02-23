@@ -552,6 +552,11 @@ mark,
   height: auto;
 }
 
+.img-fluid-column {
+  max-width: 15%;
+  height: auto;
+}
+
 .img-thumbnail {
   padding: 0.25rem;
   background-color: #fff;
@@ -679,6 +684,11 @@ pre code {
       flex-wrap: wrap;
   margin-right: -15px;
   margin-left: -15px;
+}
+
+.no-margin {
+  margin-right: 0;
+  margin-left: 0;
 }
 
 .no-gutters {

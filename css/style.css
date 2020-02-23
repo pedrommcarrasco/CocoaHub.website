@@ -47,6 +47,16 @@ button:focus {
     box-shadow: none
 }
 
+.p_50 {
+    padding-top: 50px;
+    padding-bottom: 50px
+}
+
+.p_8_24 {
+    padding-top: 8px;
+    padding-bottom: 24px
+}
+
 .p_120 {
     padding-top: 120px;
     padding-bottom: 120px
@@ -153,8 +163,15 @@ button:focus {
     align-self: center
 }
 
+.vertical-center {
+  margin: 0;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
 .home_banner_area .banner_inner .banner_content h2 {
-    font-size: 75px;
+    font-size: 40px;
     font-weight: 700;
     font-family: "Open Sans", sans-serif;
     margin-bottom: 15px;
@@ -212,7 +229,7 @@ h2 {
 }
 
 h3 {
-    font-size: 24px
+    font-size: 30px
 }
 
 h4 {
@@ -436,12 +453,12 @@ h6 {
 .app_btn_area .app_btn {
     display: inline-block;
     border: 1px solid #eeeeee;
-    padding-top: 12px;
-    padding-bottom: 12px;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 16px;
+    padding-right: 16px;
     border-radius: 5px;
-    margin-right: 16px;
+    margin-right: 8px;
     @inlcude transition;
 }
 
