@@ -75,7 +75,9 @@
                 <div class="banner_content text-center" data-aos="fade-up">
                     <div id="qrcode"></div>
                     <script type="text/javascript">
-                    new QRCode(document.getElementById("qrcode"), document.URL);
+                        if(typeof QRCode !== 'undefined'){
+                              new QRCode(document.getElementById("qrcode"), document.URL);
+                        }
                     </script>
                 </div>
              </div>
