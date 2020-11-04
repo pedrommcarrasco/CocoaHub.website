@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" style="background-color:#222222;">
    <head>
       <!-- Primary Meta Tags -->
       <title>A whole new hub built for you!</title>
@@ -69,21 +69,49 @@
       </header>
       <!--================Header Menu Area =================-->
       <!--================Home Banner Area =================-->
-      <section class="banner_area">
-          <div class="banner_inner d-flex align-items-center">
-             <div class="overlay bg-parallax" data-stellar-ratio="0.9" data-stellar-vertical-offset="0" data-background=""></div>
+      <section class="home_banner_area" id="home" style="padding:50px;">
+          <div class="banner_inner" style="box-sizing:initial;">
              <div class="container">
-                <div class="banner_content text-center" data-aos="fade-up">
-                    <div id="qrcode"></div>
-                    <script type="text/javascript">
-                       new QRCode(document.getElementById("qrcode"), document.URL);
-                    </script>
+                 <div class="row banner_content" style="align-items:center;">
+                   <div class="col-lg-8" data-aos="fade-right">
+                      <h2>Hello there! 👋</h2>
+                      <p>This webpage is just a placeholder to allow us to redirect you via Universal Linking to our native iOS & iPadOS application.</p>
+                      <p>If you're reading this, you're either opening this from your computer or you don't have our application installed.</p>
+                      <p>You can either install CocoaHub via App Store by selecting the button bellow, or you can scan this QR Code with your device's camera and install our Editions App Clip to try out this CocoaHub feature.</p>
+                      <div class="app_btn_area">
+                         <a href="https://apps.apple.com/app/id1467755462">
+                            <div class="app_btn">
+                               <div class="media">
+                                  <div class="d-flex">
+                                     <i class="fa fa-apple" aria-hidden="true"></i>
+                                  </div>
+                                  <div class="media-body">
+                                     <p>Download on the</p>
+                                     <h4>App Store</h4>
+                                  </div>
+                               </div>
+                            </div>
+                         </a>
+                      </div>
+                   </div>
+                   <div class="col-lg-4" style="width:unset;">
+                      <div class="banner_map_img" data-aos="fade-up">
+                          <div id="qrcode"></div>
+                          <script type="text/javascript">
+                              new QRCode(document.getElementById("qrcode"), {
+                                  text: document.URL,
+                                  width: 250,
+                                  height: 250,
+                                  colorDark : "#000000",
+                                  colorLight : "#ffffff",
+                                  correctLevel : QRCode.CorrectLevel.H
+                              });
+                          </script>
+                      </div>
+                   </div>
                 </div>
              </div>
           </div>
-
-
-
       </section>
       <!--================Contact Area =================-->
       <!--================ start footer Area  =================-->
