@@ -4,7 +4,7 @@
       "details": [
          {
             "appID": "7GE4Q65N57.pedrommcarrasco.CocoaHub",
-            "paths": ["*/editions/*"]
+            "paths": ["*"]
          }
       ]
    },
