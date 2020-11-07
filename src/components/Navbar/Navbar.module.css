@@ -1,4 +1,4 @@
-.NavbarItems {
+.nav {
     background: linear-gradient(90deg, rgb(0, 178, 255) 0%,  rgb(0, 122, 255) 100%);
     height: 80px;
     display: flex;
@@ -6,7 +6,7 @@
     align-items: center;
 }
 
-.navbar-logo {
+.logo {
     color: white;
     justify-self: start;
     margin-left: 20px;
@@ -15,18 +15,14 @@
     display: table;
 }
 
-.navbar-logo-item {
+.logoItem {
     vertical-align: middle;
     display: table-cell;
     padding-left: 4px;
     padding-right: 4px;
 }
 
-.navbar-logo-text {
-    padding-inline: 8px;
-}
-
-.nav-menu {
+.menu {
     display: grid;
     grid-template-columns: repeat(5, auto);
     grid-gap: 10px;
@@ -37,13 +33,13 @@
     margin-right: 2rem;
 }
 
-.nav-links {
+.links {
     color: white;
     text-decoration: none;
     padding: 0.5rem 1rem;
 }
 
-.nav-links:hover {
+.links:hover {
     background-color: rgb(255, 255, 255, 0.15);
     border-radius: 12px;
     transition: all 0.2s ease-out;

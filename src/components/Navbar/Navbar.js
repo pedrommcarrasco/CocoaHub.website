@@ -1,21 +1,21 @@
 import Reach, { Component } from 'react';
 import { MenuItems } from "./MenuItems";
-import './Navbar.css'
 import logo from 'resources/logo.svg';
+import styles from './Navbar.module.css'; 
 
 // Component inspired by https://www.youtube.com/watch?v=fL8cFqhTHwA
-class Navbar extends Component {
-    render () {
-        return <nav className="NavbarItems">
-            <h1 className="navbar-logo">
-                <span className='navbar-logo-item'><img src={logo}/></span>  
-                <span className='navbar-logo-item'>CocoaHub</span>       
+export const Navbar = () => {
+    return (
+        <nav className={styles.nav}>
+            <h1 className={styles.logo}>
+                <span className={styles.logoItem}><img src={logo}/></span>  
+                <span className={styles.logoItem}>CocoaHub</span>       
             </h1>
-            <ul className='nav-menu'>
+            <ul className={styles.menu}>
                 {MenuItems.map((item, index) => {
                     return (
                         <li key={index}>
-                            <a className='nav-links' href={item.url}>
+                            <a className={styles.links} href={item.url}>
                             {item.title}
                             </a>
                         </li>
@@ -23,7 +23,7 @@ class Navbar extends Component {
                 })}
             </ul>
         </nav>
-    };
+    )
 }
 
 export default Navbar
