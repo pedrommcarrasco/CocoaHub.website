@@ -1,7 +1,7 @@
 import Reach, { Component } from 'react';
 import { MenuItems } from "./MenuItems";
-import logo from '/Users/pedrommcarrasco/Desktop/Projects/CocoaHub.website/src/resources/logo.svg';
 import './Navbar.css'
+import logo from 'resources/logo.svg';
 
 // Component inspired by https://www.youtube.com/watch?v=fL8cFqhTHwA
 class Navbar extends Component {
