@@ -1,4 +1,3 @@
-import Reach, { Component } from 'react';
 import { MenuItems } from "./MenuItems";
 import logo from 'resources/logo.svg';
 import styles from './Navbar.module.css'; 
