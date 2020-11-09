@@ -1,6 +1,7 @@
 import { MenuItems } from "./MenuItems";
 import logo from 'resources/logo.svg';
 import styles from './Navbar.module.css'; 
+import {Link} from 'react-router-dom';
 
 // Component inspired by https://www.youtube.com/watch?v=fL8cFqhTHwA
 export const Navbar = () => {
@@ -13,9 +14,9 @@ export const Navbar = () => {
             <ul className={styles.menu}>
                 {MenuItems.map((item, index) => {
                     return (
-                        <li key={index}>
+                        <li key={index} component={Link} to={item.url}>
                             <a className={styles.links} href={item.url}>
-                            {item.title}
+                                {item.title}
                             </a>
                         </li>
                     )

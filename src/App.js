@@ -1,6 +1,7 @@
 import React from 'react';
 import Navbar from "components/Navbar/Navbar";
 import NewsList from "components/News/NewsList";
+import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 
 import './App.css';
 
@@ -8,8 +9,17 @@ import './App.css';
 function App() {
   return (
     <div className="App">
+    <Router>
       <Navbar /> 
-      <NewsList />
+      <Switch>
+        <Route path="/news">
+          <NewsList />
+        </Route>
+        <Route path="/">
+          <NewsList />
+        </Route>
+      </Switch>
+    </Router>
     </div>
   );
 }

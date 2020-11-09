@@ -1,23 +1,23 @@
 export const MenuItems = [
     {
         title: 'Home',
-        url: '#'
+        url: '/'
     },
     {
         title: 'News',
-        url: '#'
+        url: '/news'
     },
     {
         title: 'Editions',
-        url: '#'
+        url: '/'
     },
     {
         title: 'Events',
-        url: '#'
+        url: '/'
     },
     {
         title: 'Contribute',
-        url: '#'
+        url: '/'
     }
     
 ]
