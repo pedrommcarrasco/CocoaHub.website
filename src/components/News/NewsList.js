@@ -1,5 +1,5 @@
 import styles from './NewsList.module.css'; 
-import { News } from "models/New";
+import { News } from "./New";
 
 // TODO: Need to sort & grouped by Date and add Tags Component to each row
 export const NewsList = () => {

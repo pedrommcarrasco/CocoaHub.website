@@ -1,0 +1,38 @@
+.section {
+    display: block;
+    margin: 32px auto;
+    color: black;
+    padding: 0px;
+    border-radius: 12px;
+    width: 60%;
+    min-width: 475px;
+    text-align: left;
+}
+
+.sectionHeader {
+    font-size: 14px;
+    color: #646464;
+    margin-bottom: 4px;
+}
+
+.row {
+    display: block;
+    margin-bottom: 12px;
+    color: black;
+    background: white;
+    padding: 16px;
+    border-radius: 12px;
+    text-align: left;
+}
+
+.rowTitle {
+    font-weight: bold;
+    font-size: 20px;
+    color: black;
+    padding-bottom: 4px;
+}
+
+.rowBody {
+    font-size: 16px;
+    color: #646464;
+}

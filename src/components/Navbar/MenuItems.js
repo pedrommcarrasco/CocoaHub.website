@@ -9,7 +9,7 @@ export const MenuItems = [
     },
     {
         title: 'Editions',
-        url: '/'
+        url: '/editions'
     },
     {
         title: 'Events',
