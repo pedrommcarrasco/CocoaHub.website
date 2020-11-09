@@ -13,11 +13,11 @@ export const MenuItems = [
     },
     {
         title: 'Events',
-        url: '/'
+        url: '/events'
     },
     {
-        title: 'Contribute',
-        url: '/'
+        title: 'About',
+        url: '/about'
     }
     
 ]

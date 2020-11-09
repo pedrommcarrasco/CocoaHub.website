@@ -2,6 +2,7 @@ import React from 'react';
 import Navbar from "components/Navbar/Navbar";
 import NewsList from "components/News/NewsList";
 import EditionsList from "components/Editions/EditionsList";
+import EventsList from "components/Events/EventsList";
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 
 import './App.css';
@@ -18,6 +19,9 @@ function App() {
         </Route>
         <Route path="/editions">
           <EditionsList />
+        </Route>
+        <Route path="/events">
+          <EventsList />
         </Route>
         <Route path="/">
           <NewsList />
